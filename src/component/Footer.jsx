@@ -15,7 +15,6 @@ const styles = {
         background: "#333",
         color: "#fff",
         textAlign: "center",
-        position: "absolute",
         bottom: "0",
         width: "100%",
     },

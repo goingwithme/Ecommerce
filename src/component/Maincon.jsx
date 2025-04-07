@@ -28,6 +28,7 @@ const styles = {
     main: {
         padding: "20px",
         textAlign: "center",
+        display: "block",
     },
 };
 

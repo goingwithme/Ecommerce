@@ -36,3 +36,23 @@
     text-align: center;
     /* Center the text */
 }
+
+.cart_icon {
+    background-color: #fff900b0;
+    /* Light gray background */
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 28px;
+    position: relative;
+}
+
+.cart_icon:hover {
+    background-color: #ddd;
+color: rgba(48, 48, 48, 0.76);
+    /* Slightly darker on hover */
+    transform: scale(1);
+    /* Slight zoom effect */
+    cursor: pointer;
+}

@@ -22,7 +22,7 @@ function Header() {
                         <div className="col-lg-3">
                             <div style={{ position: 'relative' }}>
                                 <NavLink to="/Cart">
-                                    <IoIosCart />
+                                    <IoIosCart className='cart_icon' />
                                     {cartItems.length > 0 && (
                                         <span style={{
                                             position: 'absolute',

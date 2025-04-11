@@ -53,6 +53,62 @@
     color: #333;
     margin: 0;
 }
-.delete_btn{
+
+.delete_btn {
     cursor: pointer;
 }
+
+.smil_icon {
+    color: rgb(0, 195, 255);
+    font-size: 6em;
+    transition: transform 0.9s ease, color 0.3s ease;
+
+    /* Smooth transition for transform and color */
+    :hover {
+        transform: rotate(20deg) scale(1.2);
+        /* Rotate and scale the icon on hover */
+        color: orange;
+        /* Change color on hover */
+    }
+}
+
+.empty-cart {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    color: #a0bbb1;
+}
+
+.delete {
+    display: flex;
+    justify-content: end;
+    font-size: 17px;
+}
+
+.btn_group {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.btn_group span {
+    width: 32px;
+    height: 32px;
+    /* background-color: rgb(95, 95, 95); */
+    color: rgb(0, 0, 0);
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 25px;
+}
+
+/* .btn_group span:hover {
+    background-color: #333;
+    transform: scale(1.1);
+} */

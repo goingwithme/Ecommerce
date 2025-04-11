@@ -1,0 +1,38 @@
+.shell_icon{
+    height: 25px;
+    width: 25px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.cart-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.cartitems {
+    position: absolute;
+    top: 36px;
+    /* Adjust this value to position the badge vertically */
+    right: 320px;
+    /* Adjust this value to position the badge horizontally */
+    background: red;
+    /* Background color of the badge */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Make it circular */
+    padding: 3px 5px;
+    /* Padding around the text */
+    font-size: 10px;
+    /* Font size */
+    font-weight: bold;
+    /* Font weight */
+    min-width: 20px;
+    /* Minimum width to ensure it looks good */
+    text-align: center;
+    /* Center the text */
+}

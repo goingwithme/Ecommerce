@@ -5,12 +5,15 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 import Maincon from './component/Maincon';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { CartProvider } from './navcompo/CartContext';
 
 function App() {
   return (
     <>
-      <Header />
-      <Maincon></Maincon>
+      <CartProvider>
+        <Header />
+      <Maincon />
+      </CartProvider>
       <Footer />
     </>
   );

@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div className='d-flex justify-content-last'>
             <div className='NavLine d-flex justify-content-start'>
-                <Link to="/Product">Product</Link>
+                <Link to="/">Product</Link>
                 <Link to="/mens">Men</Link>
                 <Link to="/woman">Woman</Link>
                 <Link to="/Contact">Contact</Link>

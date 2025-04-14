@@ -63,7 +63,7 @@ function Product() {
                     <img src={item.image} className="img-fluid" alt="..." style={{ width: "150px", objectFit: "cover" }} />
                     <h5 className="card-title" style={{ minHeight: '40px' }}>{item.title}</h5>
                     <div className='' style={{ display: 'flex', justifyContent: 'space-between' }}>
-                      <button style={{ marginRight: '8px' }}>Buy Now</button>
+                      {/* <button onClick={() => navigate(`/BuyNow`)} style={{ marginRight: '8px' }}>Buy Now</button> */}
                       <button onClick={() => addToCart(item)}>Add to cart</button> {/* Use the local addToCart */}
                     </div>
                   </div>
